@@ -7,22 +7,29 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input type="text" placeholder="Enter a topic" />
-        <input type="submit" name="" id="" />
-      </form>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Write a topic..."
+            autofocus
+            required
+            class="prompt"
+          />
+          <input type="submit" value="Generate" id="" class="submit-button" />
+        </form>
 
-      <div>
-        The poem appears here <br />
-        It's time to laugh weird
-      </div>
-    </main>
-
+        <div class="poem">
+          The poem appears here <br />
+          It's time to laugh weird
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/CsengeOnCode" target="_blank">Csenge Barna</a>
