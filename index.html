@@ -15,19 +15,21 @@
       </header>
 
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Write a topic..."
-            autofocus
-            required
-            class="prompt"
-            id="user-prompt"
-          />
-          <input type="submit" value="Generate" class="submit-button" />
-        </form>
-
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Write a topic..."
+              autofocus
+              required
+              class="prompt"
+              id="user-prompt"
+            />
+            <input type="submit" value="Generate" class="submit-button" />
+          </form>
+          <div class="hint">i.e. flowers, love, sunshine</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
     </div>
     <footer>
